@@ -1,3 +1,9 @@
+function encryptButton() {
+  alert("Button clicked!");
+  // document.getElementById("encrypt-it").value = changeUppperCase.value.toUpperCase();
+}
+
+
 (function () {
   "use strict";
 
@@ -15,10 +21,7 @@
     console.log("Window loaded!");
   }
 
-  function encryptButton() {
-    alert("Button clicked!");
-    // document.getElementById("encrypt-it").value = changeUppperCase.value.toUpperCase();
-  }
+
 
   // Add any other functions in this area (you should not implement your
   // entire program in the init function, for similar reasons that
