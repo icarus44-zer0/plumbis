@@ -1,9 +1,5 @@
-/*
- * Starter file 
- */
 
-
-async function alertButton () {
+async function alertforload () {
 	console.log("Window loaded!");
 }
 
@@ -16,7 +12,7 @@ async function alertButton () {
    * for the "load" event on the window, signalling the HTML DOM has been constructed
    * on the page. When this event occurs, the attached function (init) will be called.
    */
-  window.addEventListener("load", init);
+  window.addEventListener("load", alertforload);
 
   /**
    * TODO: Write a function comment using JSDoc.
