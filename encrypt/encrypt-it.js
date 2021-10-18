@@ -1,7 +1,4 @@
-
-
-
-(function() {
+(function () {
   "use strict";
 
   /**
@@ -11,15 +8,19 @@
    */
   window.addEventListener("load", alertforload);
 
-/**
- * 
- */
-  function alertforload () {
+  /**
+   *
+   */
+  function alertforload() {
     console.log("Window loaded!");
+  }
+
+  function encryptButton() {
+    alert("Button clicked!");
+    // document.getElementById("encrypt-it").value = changeUppperCase.value.toUpperCase();
   }
 
   // Add any other functions in this area (you should not implement your
   // entire program in the init function, for similar reasons that
   // you shouldn't write an entire Java program in the main method).
-
 })();
