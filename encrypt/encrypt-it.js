@@ -14,7 +14,7 @@
 /**
  * 
  */
-   async function alertforload () {
+  function alertforload () {
     console.log("Window loaded!");
   }
 
